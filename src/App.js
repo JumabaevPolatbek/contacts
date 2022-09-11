@@ -32,6 +32,9 @@ class Form extends React.Component {
       phone: this.arrPhone,
       email: this.arrEmail,
     });
+    user.value="";
+    phoneUser.value="";
+    emailUser.value="";
   }
   InfoUsers({ info, id }) {
     return (
